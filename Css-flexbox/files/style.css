@@ -1,0 +1,109 @@
+html, body {
+ background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  display: block;
+ font-Family: Lexend Deca;
+  font-weight: 400;
+  }
+*{
+  margin: 0;
+  padding: 0;
+/*   box-sizing: border-box; */
+}
+ 
+main {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  height: 100vh;
+
+}
+.container {
+  background-color: hsl(31, 77%, 52%);
+  width: 200px;
+  border: 50px solid hsl(31, 77%, 52%);
+}
+
+.hero {
+  background-color: hsl(184, 100%, 22%);
+  width: 200px;
+  border: 50px solid hsl(184, 100%, 22%);
+}
+
+.lux {
+  background-color: hsl(179, 100%, 13%);
+    width: 200px;
+  border: 50px solid hsl(179, 100%, 13%);
+}
+
+
+#header {
+  margin-bottom: 15px;
+ 
+}
+
+
+ p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  width: 200px;
+  height: auto;
+   margin-top: 50px;
+  font-weight: 700;
+ line-height: 1.8;
+}
+h2 {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  width: 200px;
+  height: auto;
+}
+.container > .btn {
+  background-color: hsl(0, 0%, 95%);
+  color: #ffb08a;
+  text-align: center;
+  margin-top: 50px; 
+  padding: 10px 30px;
+border-radius: 35px 35px 35px 35px;
+cursor: pointer;
+  border: 1px solid hsl(0, 0%, 100%);
+  opacity: 0.9;
+  
+}
+.hero > .btn {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+ border: 1px solid hsl(0, 0%, 100%);;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;  
+  padding: 10px 30px;
+border-radius: 35px 35px 35px 35px;
+  opacity: 0.9;
+}
+.lux > .btn {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+ border: 1px solid hsl(0, 0%, 100%);;
+  cursor: pointer;
+  margin-top: 50px; 
+  text-align: center;
+  padding: 10px 30px;
+border-radius: 35px 35px 35px 35px;
+  
+}
+
+.lux > .btn:hover {
+    background: hsl(179, 100%, 13%);
+  color: white;
+}
+.hero > .btn:hover {
+    background:hsl(184, 100%, 22%);
+ color: white;
+}
+.container > .btn:hover {
+    background:#ffb08a;
+  color: white;
+}
